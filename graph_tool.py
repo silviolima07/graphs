@@ -1,6 +1,5 @@
 from crewai_tools import tool
 import pandas as pd
-import lida
 import os
 import streamlit as st
 
