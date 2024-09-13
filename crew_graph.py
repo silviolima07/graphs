@@ -232,6 +232,8 @@ if option == 'About':
     st.markdown("### Este aplicativo faz uma análise dos dados de um dataset.")
     st.markdown("### A análise pode ser baixada no final do processamento.")
     st.markdown("### Não substitue uma análise mais profunda com base no entendimento das regras do negócio.")
-    
+    st.markdown("### A cada execução nos mesmos dados uma nova análise é feita.")
+    st.markdown("### Portanto, é por enquanto uma experiência.")
+    st.markdown("### Modelo usado via Groq: llama3-70b-8192")    
 
     
