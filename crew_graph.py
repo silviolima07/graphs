@@ -229,8 +229,8 @@ if option == 'About':
     
     st.markdown("### Agente Especialista de Visualização")
     st.markdown("### Task: Analisar e propor gráficos que auxiliem o entendimento dos dados.")
-    st.markdown("### Este aplicativo faz uma análise dos dados de um dataset.")
-    st.markdown("### A análise pode ser baixada no final do processamento.")
+    #st.markdown("### Este aplicativo faz uma análise dos dados de um dataset.")
+    #st.markdown("### A análise pode ser baixada no final do processamento.")
     st.markdown("### Não substitue uma análise mais profunda com base no entendimento das regras do negócio.")
     st.markdown("### A cada execução nos mesmos dados uma nova análise é feita.")
     st.markdown("### Portanto, é por enquanto uma experiência.")
