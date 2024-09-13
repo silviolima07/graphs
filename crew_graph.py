@@ -80,8 +80,8 @@ if option == 'Upload':
     'Gráficos como histograma, boxplot, dispersão, pizza, barros, etc...devem ter os códigos criados.'
     'Análise de correlação, ranking e estáticas de dados ausentes, com problema, etc...devem ser incluídos no código criado. .'
     'Apresentar análise com as explicações apenas. Informar que os codigos gerados estão no arquivo {filename} formato python.'
-    'Usar ferramenta para baixar o código com nome {filename} formato {formato_python}.'
-    'Usar ferramenta para baixar a análise com nome analise_{filename} formato {formato_markdown}.'
+    'Após apresentar a análise, usar ferramenta para baixar o código com nome {filename} formato {formato_python}.'
+    'Após apresentar a análise, usar ferramenta para baixar a análise com nome analise_{filename} formato {formato_markdown}.'
     ,
         agent=data_visualizer,
         expected_output=
