@@ -7,6 +7,7 @@ import os
 from dotenv import load_dotenv
 import pandas as pd
 import warnings
+from config_llm import llama
 
 from PIL import Image
 warnings.filterwarnings("ignore", category=UserWarning)
@@ -66,7 +67,8 @@ if option == 'Upload':
     backstory=(
      "Você é um especialista em visualização de dados."
      "Seu trabalho é analisar conjuntos de dados, entender suas propriedades e gerar gráficos relevantes."
-        )
+        ),
+        llm=llama
          )
 
     
@@ -93,7 +95,9 @@ if option == 'Upload':
         crew = Crew(
         agents=[data_visualizer],
         tasks=[visualization_task],
-        process=Process.sequential  # Executa as tarefas de forma sequencial
+        process=Process.sequential,
+        verbose=False,
+        max_rpm=30        # Executa as tarefas de forma sequencial
         )
 
         if uploaded_file is not None:
